@@ -1,0 +1,13 @@
+@use '../../styles/colors' as colors;
+
+.wrapper {
+  border: 2px solid colors.$darker_gray;
+}
+.plugin {
+  padding-left: 2rem;
+  padding-top: 20px;
+}
+
+.title {
+  color: colors.$oxford_blue;
+}
