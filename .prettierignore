@@ -1,0 +1,12 @@
+# Ignore everything recursively
+*
+
+# But not the .ts, .tsx files
+!*.ts
+!*.tsx
+
+# Ignore react-app-env.d.ts
+react-app-env.d.ts
+
+# Check subdirectories too
+!*/
