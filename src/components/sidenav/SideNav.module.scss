@@ -1,0 +1,67 @@
+@use '../../styles/colors' as colors;
+
+.sidenav {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: colors.$light_gray;
+  overflow-x: hidden;
+  font-family: Verdana;
+  float: left;
+
+  @media (min-width: 1240px) {
+    width: 20%;
+  }
+}
+.title {
+  color: colors.$oxford_blue;
+  font-size: 175%;
+  display: inline-block;
+  padding: 40px 0px 30px 30px;
+}
+.sidenav .tab {
+  padding: 18px 8px 18px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: colors.$black;
+  display: block;
+}
+
+.sidenav .tab:hover {
+  background-color: colors.$white;
+  border-left: solid colors.$error;
+}
+
+.icon {
+  padding-right: 8px;
+}
+
+.sidenavBottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.greenBackground {
+  background: linear-gradient(to top, colors.$light_green, colors.$light_gray);
+}
+
+.redBackground {
+  background: linear-gradient(to top, colors.$light_red, colors.$light_gray);
+}
+
+.bottomTitle {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  color: colors.$oxford_blue;
+}
+.switch {
+  padding-bottom: 20px;
+}
+.link {
+  text-decoration: none;
+  color: colors.$oxford_blue;
+}
