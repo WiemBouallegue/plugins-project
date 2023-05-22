@@ -1,0 +1,10 @@
+@use '../styles/colors' as colors;
+
+.wrapper {
+  margin-left: 20%;
+}
+
+.title {
+  padding: 40px 0px 30px 30px;
+  color: colors.$oxford_blue;
+}
