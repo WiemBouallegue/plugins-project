@@ -1,6 +1,8 @@
 import { DataRes, TabDetails, Plugin } from '../types';
 
-export const getTabDetails = (data: DataRes): TabDetails[] | undefined => {
+export const getTabDetails = (
+  data: DataRes | null
+): TabDetails[] | undefined => {
   if (!data) {
     return;
   }
